@@ -18,7 +18,9 @@ npm install
 npm start
 
 Project used external libraries
+
 Material UI (npm install npm install @material-ui/core)
+
 React Router DOM (npm install react-router-dom)
 
 ## User Manual
@@ -27,6 +29,7 @@ This application is used to track package details like status, location , sender
 User need to login with User Name and Phone to view details.
 
 User can search the packages by Package Id 
+
 <img width="1440" alt="Screenshot 2020-11-08 at 18 35 18" src="https://user-images.githubusercontent.com/72104747/98472124-30883580-21f1-11eb-8271-b9e23ef59d63.png">
 
 User can sort the packages using Sender/Status/ETA/Location
