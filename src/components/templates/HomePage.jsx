@@ -42,6 +42,13 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(3, 0, 2),
     },
   }));
+
+  /*
+
+  This method is used to build the home screen and render the login form 
+  with username and phone details of the user. It uses Material UI external library.
+  */
+ 
 export default function HomePage()
 {
     

@@ -1,5 +1,9 @@
 import React from 'react';
 
+/*
+This is used to show the package related important information to the user
+*/
+
 export default function Cards(props)
 {   
     

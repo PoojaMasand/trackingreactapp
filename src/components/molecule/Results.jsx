@@ -2,6 +2,11 @@ import React, {useState} from 'react';
 import Cards from './Cards';
 import Button from '@material-ui/core/Button';
 
+/*
+This method is used to call Cards.jsx where package details are rendered on the screen.
+This is also used to search the package based on package id.
+This is also used to sort the package detail using ETA, Status, Location and sender.
+*/
 
 export default function Results (data)
 

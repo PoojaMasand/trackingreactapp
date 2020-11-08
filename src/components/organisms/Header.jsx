@@ -1,6 +1,11 @@
 import React, {useState , useEffect} from 'react';
 import Results from '../molecule/Results';
 import {Link} from "react-router-dom";
+
+/*
+This method is used to call the fetch API and pass the data to the result screen
+*/
+
 export default function Header({match})
 {
     
