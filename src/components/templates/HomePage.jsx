@@ -1,4 +1,4 @@
-import React, { Component,useState } from 'react';
+import React, {useState } from 'react';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
@@ -7,7 +7,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import { Router,Link ,Redirect, withRouter} from "react-router-dom";
+import {Link} from "react-router-dom";
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Image from '../../assets/courierservice1_0.jpg' ;
@@ -47,7 +47,6 @@ export default function HomePage()
     
   const [phone, setPhone] = useState("");
   const [name, setName] = useState("");
-  const [field, setField] = useState("")
   function addValidation()
   {
       if(name === '' || phone === '')

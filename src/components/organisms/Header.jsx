@@ -1,4 +1,4 @@
-import React, { Component ,useState , useEffect} from 'react';
+import React, {useState , useEffect} from 'react';
 import Results from '../molecule/Results';
 import {Link} from "react-router-dom";
 export default function Header({match})
@@ -8,9 +8,6 @@ export default function Header({match})
     
     const userName = new RegExp(match.params.name, "i");
     const userPhone = match.params.phone;
-    
-    console.log("Match value of name  is " + match.params.name);
-    console.log("Match value of phone  is " + match.params.phone);
     
     const [information, setInformation] = useState([]);
     const endpoint = "https://my.api.mockaroo.com/orders.json?key=e49e6840";

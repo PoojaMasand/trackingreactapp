@@ -1,7 +1,7 @@
-import React, { useState, Component } from 'react';
+import React, {useState} from 'react';
 import Cards from './Cards';
 import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
+
 
 export default function Results (data)
 
