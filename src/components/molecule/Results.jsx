@@ -35,7 +35,7 @@ export default function Results (data)
 
     
     return(
-        <div>
+        <div className="cardsDiv">
         <section className="container">
         <div className="search-bar">
         <input

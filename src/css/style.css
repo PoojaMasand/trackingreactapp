@@ -65,7 +65,12 @@ label {
     }
     label:after { content: ": " }
 
+.cardsDiv{
+    background-color:lightblue;
+    
 
+    
+}
 
   
   

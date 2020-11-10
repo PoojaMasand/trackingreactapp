@@ -8,7 +8,7 @@ export default function Cards(props)
 {   
     
     return(
-            <div >
+            <div>
 
         
             <p className = "leftSide"> 
