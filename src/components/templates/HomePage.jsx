@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
   This method is used to build the home screen and render the login form 
   with username and phone details of the user. It uses Material UI external library.
   */
- 
+
 export default function HomePage()
 {
     
@@ -81,7 +81,7 @@ export default function HomePage()
             required
             fullWidth
             id="name"
-            label="user_name"
+            label="User Name John Doe"
             name="name"
             autoComplete="name"
             autoFocus
@@ -93,7 +93,7 @@ export default function HomePage()
             required
             fullWidth
             name="phone"
-            label="phone  +46"
+            label="phone +46 729478015"
             id="phone"
             autoComplete="phone"
             onChange={(event) => setPhone(event.target.value)}
