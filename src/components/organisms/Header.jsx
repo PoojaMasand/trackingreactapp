@@ -42,7 +42,7 @@ export default function Header({match})
     
     return(
 
-        <div>
+        <div className="headerDiv">
        
         {status === 0 ? <p>Loading...</p> : null}
         {status === 1 ? <Results items={information}/> : null}

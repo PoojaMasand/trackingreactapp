@@ -3,6 +3,7 @@ body {
     max-width: 100%;
     border: 1px ;
   box-sizing: border-box;
+  
   }
 
 .button {
@@ -65,12 +66,21 @@ label {
     }
     label:after { content: ": " }
 
-.cardsDiv{
-    background-color:blanchedalmond;
+.headerDiv{
     
+    margin: 0;
+    max-width: 100%;
+    border: 1px ;
+    box-sizing: border-box;
 
     
+    
 }
+
+
+
+
+
 
   
   
